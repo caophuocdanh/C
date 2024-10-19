@@ -1,0 +1,26 @@
+﻿<Window x:Class="SerialChecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Serial Checker" Height="400" Width="600">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Button Name="btnLoad" Click="BtnLoad_Click" Content="Load Serial" Margin="5"/>
+            <Button Name="btnCheck" Click="BtnCheck_Click" Content="Check Serial" Margin="5"/>
+            <Button Name="btnSave" Click="BtnSave_Click" Content="Save to Excel" Margin="5"/>
+        </StackPanel>
+        <ListView Name="listView" Margin="10" Height="316">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT}"/>
+                    <!-- Cột STT -->
+                    <GridViewColumn Header="So Seria" DisplayMemberBinding="{Binding SoSeria}"/>
+                    <GridViewColumn Header="Ma Hang Hoa" DisplayMemberBinding="{Binding MaHangHoa}"/>
+                    <GridViewColumn Header="So Thang Bao Hanh" DisplayMemberBinding="{Binding SoThangBaoHanh}"/>
+                    <GridViewColumn Header="Ngay Xuat" DisplayMemberBinding="{Binding NgayXuat}"/>
+                    <GridViewColumn Header="So Ngay Bao Hanh Con Lai" DisplayMemberBinding="{Binding SoNgayBaoHanhConLai}"/>
+                    <GridViewColumn Header="So Lan Bao Hanh" DisplayMemberBinding="{Binding SoLanBaoHanh}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
+</Window>

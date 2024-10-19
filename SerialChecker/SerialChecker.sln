@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialChecker", "SerialChecker\SerialChecker.csproj", "{79D06260-247A-49F5-8D0C-2A59F48DE7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79D06260-247A-49F5-8D0C-2A59F48DE7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D06260-247A-49F5-8D0C-2A59F48DE7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D06260-247A-49F5-8D0C-2A59F48DE7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D06260-247A-49F5-8D0C-2A59F48DE7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BB115CF-FAF9-4784-80A0-35CC0AD7DE19}
+	EndGlobalSection
+EndGlobal

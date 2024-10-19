@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibVLCSharp.Forms.Platforms.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:LibVLCSharp.Forms.Platforms.WPF.Platform">
+            <summary>
+            Empty shell used to load the custom renderer assembly.
+            </summary>
+        </member>
+        <member name="M:LibVLCSharp.Forms.Platforms.WPF.Platform.Init">
+            <summary>
+            Call this to load the custom renderer assembly.
+            </summary>
+        </member>
+        <member name="T:LibVLCSharp.Forms.Platforms.WPF.PowerManager">
+            <summary>
+            Power manager.
+            </summary>
+        </member>
+        <member name="P:LibVLCSharp.Forms.Platforms.WPF.PowerManager.KeepScreenOn">
+            <summary>
+            Gets or sets a value indicating whether the screen should be kept on.
+            </summary>
+        </member>
+        <member name="T:LibVLCSharp.Forms.Platforms.WPF.VideoViewRenderer">
+            <summary>
+            Xamarin.Forms renderer for the VideoView on WPF
+            </summary>
+        </member>
+        <member name="M:LibVLCSharp.Forms.Platforms.WPF.VideoViewRenderer.OnElementChanged(Xamarin.Forms.Platform.WPF.ElementChangedEventArgs{LibVLCSharp.Forms.Shared.VideoView})">
+            <summary>
+            Native control management during lifecycle events
+            </summary>
+            <param name="e">lifecycle event</param>
+        </member>
+    </members>
+</doc>

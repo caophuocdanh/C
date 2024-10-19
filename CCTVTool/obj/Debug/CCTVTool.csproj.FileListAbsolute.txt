@@ -1,0 +1,14 @@
+C:\Users\ADMIN\source\repos\CCTVTool\bin\Debug\CCTVTool.exe.config
+C:\Users\ADMIN\source\repos\CCTVTool\bin\Debug\CCTVTool.exe
+C:\Users\ADMIN\source\repos\CCTVTool\bin\Debug\CCTVTool.pdb
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\MainWindow.baml
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\MainWindow.g.cs
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\App.g.cs
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool_MarkupCompile.cache
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.g.resources
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.exe
+C:\Users\ADMIN\source\repos\CCTVTool\obj\Debug\CCTVTool.pdb

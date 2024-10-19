@@ -1,0 +1,107 @@
+﻿<Window x:Class="CCTVTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reboot Camera" Height="550" Width="1000"
+        Background="#F3F4F6">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="197*"/>
+            <!-- Cột cho các nút -->
+            <ColumnDefinition Width="580*"/>
+            <ColumnDefinition Width="223*"/>
+            <!-- Cột cho DataGrid -->
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="10,10,10,10">
+            <TextBlock Text="CCTV Tool" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center" 
+                       Margin="10,10,0,10" 
+                       Foreground="#333333"/>
+
+            <Button Content="Browse" 
+                    HorizontalAlignment="Stretch" 
+                    Margin="0,5" 
+                    Height="30" 
+                    Background="#4CAF50" 
+                    Foreground="White" 
+                    FontWeight="Bold" 
+                    Click="BrowseButton_Click"/>
+
+            <Button Content="Reboot" 
+                    HorizontalAlignment="Stretch" 
+                    Margin="0,5" 
+                    Height="30" 
+                    Background="#FF9800" 
+                    Foreground="White" 
+                    FontWeight="Bold" 
+                    Click="RebootButton_Click"/>
+
+            <Button Content="Tạo file mẫu" 
+                    HorizontalAlignment="Stretch" 
+                    Margin="0,5" 
+                    Height="30" 
+                    Background="#2196F3" 
+                    Foreground="White" 
+                    FontWeight="Bold" 
+                    Click="CreateSampleExcelButton_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="cameraDataGrid" 
+                  Grid.Column="1" 
+                  AutoGenerateColumns="False" 
+                  Margin="10,10,10,10" 
+                  Background="White" 
+                  BorderBrush="#DDDDDD" 
+                  BorderThickness="1"
+                  AlternatingRowBackground="#F8F8F8"
+                  RowBackground="#FFFFFF"
+                  RowHeight="25"
+                  FontFamily="Segoe UI"
+                  FontSize="14" Grid.ColumnSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding STT}" Width="*"/>
+                <DataGridTextColumn Header="IP" Binding="{Binding IP}" Width="3*"/>
+                <DataGridTextColumn Header="Model" Binding="{Binding Model}" Width="3*"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="3*"/>
+            </DataGrid.Columns>
+            <DataGrid.Style>
+                <Style TargetType="DataGrid">
+                    <Setter Property="RowHeaderWidth" Value="0"/>
+                    <Setter Property="ColumnHeaderStyle">
+                        <Setter.Value>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#4CAF50"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Padding" Value="10,5"/>
+                                <Setter Property="BorderBrush" Value="#FF3E3E3E"/>
+                                <Setter Property="BorderThickness" Value="0,0,1,1"/>
+                            </Style>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="CellStyle">
+                        <Setter.Value>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="Padding" Value="5"/>                                
+                                <Setter Property="Background" Value="White"/>
+                                <Setter Property="Foreground" Value="#333333"/>
+                                <Setter Property="FontSize" Value="14"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#E0E0E0"/>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="#FF9800"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.Style>
+        </DataGrid>
+    </Grid>
+</Window>

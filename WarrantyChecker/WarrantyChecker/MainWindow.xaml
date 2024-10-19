@@ -1,0 +1,34 @@
+﻿<Window x:Class="WarrantyChecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Warranty Checker" Height="400" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Button Name="btnLoad" Content="Load Serial" Click="BtnLoad_Click" Margin="0,0,10,0"/>
+            <Button Name="btnCheck" Content="Check Serial" Click="BtnCheck_Click" Margin="0,0,10,0"/>
+            <ComboBox Name="cmbDateFormat" Margin="0,0,10,0" SelectionChanged="CmbDateFormat_SelectionChanged" Width="147">
+                <ComboBoxItem Content="dd/MM/yyyy" />
+                <ComboBoxItem Content="MM/dd/yyyy" />
+            </ComboBox>
+            <Button x:Name="btnSave" Content="Save to Excel" Click="BtnSave_Click"/>
+        </StackPanel>
+
+        <DataGrid Name="dataGrid" Grid.Row="1" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding STT}" Width="50" />
+                <DataGridTextColumn Header="So Seria" Binding="{Binding SoSeria}" />
+                <DataGridTextColumn Header="Ma Hang Hoa" Binding="{Binding MaHangHoa}" />
+                <DataGridTextColumn Header="So Thang Bao Hanh" Binding="{Binding SoThangBaoHanh}" />
+                <DataGridTextColumn Header="Ngay Xuat" Binding="{Binding NgayXuat}" />
+                <DataGridTextColumn Header="So Ngay Bao Hanh Con Lai" Binding="{Binding SoNgayBaoHanhConLai}" />
+                <DataGridTextColumn Header="So Lan Bao Hanh" Binding="{Binding SoLanBaoHanh}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Border BorderBrush="Black" BorderThickness="1"/>
+    </Grid>
+</Window>

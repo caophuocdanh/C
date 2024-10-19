@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\RTSPViewer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B02F7E9E-FC9F-4AAA-B8BD-DBC0344D2599}|RTSPViewer\\RTSPViewer.csproj|C:\\Users\\ADMIN\\source\\repos\\RTSPViewer\\rtspviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B02F7E9E-FC9F-4AAA-B8BD-DBC0344D2599}|RTSPViewer\\RTSPViewer.csproj|solutionrelative:rtspviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02F7E9E-FC9F-4AAA-B8BD-DBC0344D2599}|RTSPViewer\\RTSPViewer.csproj|c:\\users\\admin\\source\\repos\\rtspviewer\\rtspviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02F7E9E-FC9F-4AAA-B8BD-DBC0344D2599}|RTSPViewer\\RTSPViewer.csproj|solutionrelative:rtspviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\RTSPViewer\\RTSPViewer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RTSPViewer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\RTSPViewer\\RTSPViewer\\MainWindow.xaml",
+              "RelativeToolTip": "RTSPViewer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T05:24:34.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\RTSPViewer\\RTSPViewer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RTSPViewer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\RTSPViewer\\RTSPViewer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RTSPViewer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwG4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:24:33.51Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
